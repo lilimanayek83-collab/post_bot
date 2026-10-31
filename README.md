@@ -135,3 +135,7 @@ docker compose down                         # stop
 
 - Codespaces sleep when idle and the bot stops with them. Use a VPS for 24/7 uptime.
 - Encoding is CPU-bound (`x264`/`x265`); speed depends on core count.
+
+
+
+------------------- Developer Rajat Nayek-----------------------

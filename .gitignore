@@ -1,3 +1,22 @@
 .env
 venv/
 *.session
+
+# Runtime database and session files
+data/
+
+# Downloaded media and temporary files
+downloads/
+temp/
+
+# Python virtual environment
+venv/
+
+# Environment secrets
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
