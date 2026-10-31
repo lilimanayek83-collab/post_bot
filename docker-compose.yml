@@ -1,0 +1,13 @@
+services:
+  bot:
+    build: .
+    container_name: batch-autorename-bot
+    restart: unless-stopped
+    network_mode: host
+    env_file: .env
+    environment:
+      - SESSION_DIR=/app/data
+    volumes:
+      - ./data:/app/data
+      - ./downloads:/app/downloads
+      - ./torrents:/app/torrents

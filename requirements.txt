@@ -1,0 +1,7 @@
+wzgram[fast]
+TgCrypto
+motor
+pymongo
+python-dotenv
+Pillow
+libtorrent
